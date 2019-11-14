@@ -3,19 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70AB247236F6D0D00DC5076 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = A70AB246236F6D0D00DC5076 /* URLImage */; };
+		A718C4F323573F6C00057FEC /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A718C4F223573F6C00057FEC /* TrackDetailView.xib */; };
+		A71C00B823546C3E00072CD8 /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71C00B723546C3E00072CD8 /* TrackCell.xib */; };
+		A71C00BA23546CAF00072CD8 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C00B923546CAF00072CD8 /* TrackCell.swift */; };
+		A74F0DA3234D204C00EFA45B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F0DA2234D204C00EFA45B /* NetworkService.swift */; };
+		A771491C234CDF520025437C /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771491B234CDF520025437C /* SearchResponse.swift */; };
 		A77948C8234A29FB008B6200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77948C7234A29FB008B6200 /* AppDelegate.swift */; };
 		A77948CA234A29FB008B6200 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77948C9234A29FB008B6200 /* SceneDelegate.swift */; };
 		A77948CC234A29FB008B6200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77948CB234A29FB008B6200 /* ViewController.swift */; };
 		A77948CF234A29FB008B6200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77948CD234A29FB008B6200 /* Main.storyboard */; };
 		A77948D1234A2A04008B6200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77948D0234A2A04008B6200 /* Assets.xcassets */; };
 		A77948D4234A2A04008B6200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77948D2234A2A04008B6200 /* LaunchScreen.storyboard */; };
+		A77948DC234A2A56008B6200 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77948DB234A2A56008B6200 /* MainTabBarController.swift */; };
+		A77948DE234A3557008B6200 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77948DD234A3557008B6200 /* SearchMusicViewController.swift */; };
+		A78871B2235523BD0041B5A6 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78871B1235523BD0041B5A6 /* FooterView.swift */; };
+		A7ACF2452362F48700D21985 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACF2442362F48700D21985 /* Library.swift */; };
+		A7B626A3234F469600FAB098 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6269C234F469600FAB098 /* SearchPresenter.swift */; };
+		A7B626A4234F469600FAB098 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6269D234F469600FAB098 /* SearchWorker.swift */; };
+		A7B626A5234F469600FAB098 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6269E234F469600FAB098 /* SearchRouter.swift */; };
+		A7B626A6234F469600FAB098 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6269F234F469600FAB098 /* SearchModels.swift */; };
+		A7B626A7234F469600FAB098 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B626A0234F469600FAB098 /* SearchViewController.swift */; };
+		A7B626A8234F469600FAB098 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B626A1234F469600FAB098 /* SearchInteractor.swift */; };
+		A7B626AB234F58E400FAB098 /* SearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B626AA234F58E400FAB098 /* SearchViewController.storyboard */; };
+		A7B626AD234F6D2600FAB098 /* UIViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B626AC234F6D2600FAB098 /* UIViewController + Storyboard.swift */; };
+		A7D0B68723574023003579B0 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D0B68623574023003579B0 /* TrackDetailView.swift */; };
+		A7D12CE2235B49180099824A /* CMTime + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D12CE1235B49180099824A /* CMTime + Extension.swift */; };
+		A7E3082F235DE6A400A5130A /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E3082E235DE6A400A5130A /* Nib.swift */; };
+		A7E31D9A2365F50A00608D4E /* UserDefaults + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E31D992365F50A00608D4E /* UserDefaults + Extension.swift */; };
+		D7F448F6765271CA94C8DC21 /* Pods_IMusic__iTunes_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E63F03A82C0AD4A7D88E141 /* Pods_IMusic__iTunes_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E63F03A82C0AD4A7D88E141 /* Pods_IMusic__iTunes_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMusic__iTunes_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2A87AE6AEAF66A9E606BD8 /* Pods-IMusic (iTunes).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMusic (iTunes).release.xcconfig"; path = "Target Support Files/Pods-IMusic (iTunes)/Pods-IMusic (iTunes).release.xcconfig"; sourceTree = "<group>"; };
+		A718C4F223573F6C00057FEC /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
+		A71C00B723546C3E00072CD8 /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
+		A71C00B923546CAF00072CD8 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		A74F0DA2234D204C00EFA45B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A771491B234CDF520025437C /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		A77948C4234A29FB008B6200 /* IMusic (iTunes).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMusic (iTunes).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77948C7234A29FB008B6200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77948C9234A29FB008B6200 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +54,23 @@
 		A77948D0234A2A04008B6200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77948D3234A2A04008B6200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A77948D5234A2A04008B6200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77948DB234A2A56008B6200 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A77948DD234A3557008B6200 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
+		A78871B1235523BD0041B5A6 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		A7ACF2442362F48700D21985 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		A7B6269C234F469600FAB098 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		A7B6269D234F469600FAB098 /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
+		A7B6269E234F469600FAB098 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		A7B6269F234F469600FAB098 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		A7B626A0234F469600FAB098 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A7B626A1234F469600FAB098 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		A7B626AA234F58E400FAB098 /* SearchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchViewController.storyboard; sourceTree = "<group>"; };
+		A7B626AC234F6D2600FAB098 /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
+		A7D0B68623574023003579B0 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
+		A7D12CE1235B49180099824A /* CMTime + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extension.swift"; sourceTree = "<group>"; };
+		A7E3082E235DE6A400A5130A /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
+		A7E31D992365F50A00608D4E /* UserDefaults + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults + Extension.swift"; sourceTree = "<group>"; };
+		AC3693F61AEC9C822D49828D /* Pods-IMusic (iTunes).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMusic (iTunes).debug.xcconfig"; path = "Target Support Files/Pods-IMusic (iTunes)/Pods-IMusic (iTunes).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +78,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70AB247236F6D0D00DC5076 /* URLImage in Frameworks */,
+				D7F448F6765271CA94C8DC21 /* Pods_IMusic__iTunes_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B250B2E65370548609CC370 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC3693F61AEC9C822D49828D /* Pods-IMusic (iTunes).debug.xcconfig */,
+				5A2A87AE6AEAF66A9E606BD8 /* Pods-IMusic (iTunes).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A718C4F123573F4300057FEC /* TrackDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A718C4F223573F6C00057FEC /* TrackDetailView.xib */,
+				A7D0B68623574023003579B0 /* TrackDetailView.swift */,
+			);
+			path = TrackDetailView;
+			sourceTree = "<group>";
+		};
+		A71C00B623546C1100072CD8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A71C00B723546C3E00072CD8 /* TrackCell.xib */,
+				A71C00B923546CAF00072CD8 /* TrackCell.swift */,
+				A7E31D992365F50A00608D4E /* UserDefaults + Extension.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A71C00BB235479CA00072CD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A771491B234CDF520025437C /* SearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A77948BB234A29FA008B6200 = {
 			isa = PBXGroup;
 			children = (
 				A77948C6234A29FB008B6200 /* IMusic (iTunes) */,
 				A77948C5234A29FB008B6200 /* Products */,
+				3B250B2E65370548609CC370 /* Pods */,
+				B2D4ABC46E2007FB006A017C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +145,72 @@
 			children = (
 				A77948C7234A29FB008B6200 /* AppDelegate.swift */,
 				A77948C9234A29FB008B6200 /* SceneDelegate.swift */,
+				A7B6269B234F454400FAB098 /* Services */,
+				A77948DB234A2A56008B6200 /* MainTabBarController.swift */,
+				A7ACF2442362F48700D21985 /* Library.swift */,
+				A7B6268C234F415400FAB098 /* Search */,
+				A77948DD234A3557008B6200 /* SearchMusicViewController.swift */,
 				A77948CB234A29FB008B6200 /* ViewController.swift */,
+				A7B626AE234F6D4800FAB098 /* Helpers */,
 				A77948CD234A29FB008B6200 /* Main.storyboard */,
 				A77948D0234A2A04008B6200 /* Assets.xcassets */,
 				A77948D2234A2A04008B6200 /* LaunchScreen.storyboard */,
 				A77948D5234A2A04008B6200 /* Info.plist */,
 			);
 			path = "IMusic (iTunes)";
+			sourceTree = "<group>";
+		};
+		A78871B0235523930041B5A6 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				A78871B1235523BD0041B5A6 /* FooterView.swift */,
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
+		A7B6268C234F415400FAB098 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A718C4F123573F4300057FEC /* TrackDetailView */,
+				A78871B0235523930041B5A6 /* FooterView */,
+				A71C00B623546C1100072CD8 /* Cell */,
+				A7B626AA234F58E400FAB098 /* SearchViewController.storyboard */,
+				A7B626A0234F469600FAB098 /* SearchViewController.swift */,
+				A7B626A1234F469600FAB098 /* SearchInteractor.swift */,
+				A7B6269C234F469600FAB098 /* SearchPresenter.swift */,
+				A7B6269F234F469600FAB098 /* SearchModels.swift */,
+				A7B6269D234F469600FAB098 /* SearchWorker.swift */,
+				A7B6269E234F469600FAB098 /* SearchRouter.swift */,
+			);
+			name = Search;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A7B6269B234F454400FAB098 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A71C00BB235479CA00072CD8 /* Models */,
+				A74F0DA2234D204C00EFA45B /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A7B626AE234F6D4800FAB098 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A7B626AC234F6D2600FAB098 /* UIViewController + Storyboard.swift */,
+				A7D12CE1235B49180099824A /* CMTime + Extension.swift */,
+				A7E3082E235DE6A400A5130A /* Nib.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B2D4ABC46E2007FB006A017C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E63F03A82C0AD4A7D88E141 /* Pods_IMusic__iTunes_.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +220,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77948D8234A2A04008B6200 /* Build configuration list for PBXNativeTarget "IMusic (iTunes)" */;
 			buildPhases = (
+				511DFECB2B691B3E87FA35A6 /* [CP] Check Pods Manifest.lock */,
 				A77948C0234A29FB008B6200 /* Sources */,
 				A77948C1234A29FB008B6200 /* Frameworks */,
 				A77948C2234A29FB008B6200 /* Resources */,
+				A7B6D48F9E4925F6A3B9E902 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "IMusic (iTunes)";
+			packageProductDependencies = (
+				A70AB246236F6D0D00DC5076 /* URLImage */,
+			);
 			productName = "IMusic (iTunes)";
 			productReference = A77948C4234A29FB008B6200 /* IMusic (iTunes).app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +262,9 @@
 				Base,
 			);
 			mainGroup = A77948BB234A29FA008B6200;
+			packageReferences = (
+				A70AB245236F6D0D00DC5076 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = A77948C5234A29FB008B6200 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,21 +280,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77948D4234A2A04008B6200 /* LaunchScreen.storyboard in Resources */,
+				A71C00B823546C3E00072CD8 /* TrackCell.xib in Resources */,
 				A77948D1234A2A04008B6200 /* Assets.xcassets in Resources */,
+				A7B626AB234F58E400FAB098 /* SearchViewController.storyboard in Resources */,
+				A718C4F323573F6C00057FEC /* TrackDetailView.xib in Resources */,
 				A77948CF234A29FB008B6200 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		511DFECB2B691B3E87FA35A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMusic (iTunes)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B6D48F9E4925F6A3B9E902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMusic (iTunes)/Pods-IMusic (iTunes)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMusic (iTunes)/Pods-IMusic (iTunes)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMusic (iTunes)/Pods-IMusic (iTunes)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A77948C0234A29FB008B6200 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77948DE234A3557008B6200 /* SearchMusicViewController.swift in Sources */,
+				A7B626AD234F6D2600FAB098 /* UIViewController + Storyboard.swift in Sources */,
 				A77948CC234A29FB008B6200 /* ViewController.swift in Sources */,
+				A771491C234CDF520025437C /* SearchResponse.swift in Sources */,
+				A7B626A8234F469600FAB098 /* SearchInteractor.swift in Sources */,
+				A78871B2235523BD0041B5A6 /* FooterView.swift in Sources */,
+				A7D12CE2235B49180099824A /* CMTime + Extension.swift in Sources */,
+				A71C00BA23546CAF00072CD8 /* TrackCell.swift in Sources */,
+				A7E3082F235DE6A400A5130A /* Nib.swift in Sources */,
 				A77948C8234A29FB008B6200 /* AppDelegate.swift in Sources */,
+				A77948DC234A2A56008B6200 /* MainTabBarController.swift in Sources */,
+				A7B626A4234F469600FAB098 /* SearchWorker.swift in Sources */,
+				A7B626A7234F469600FAB098 /* SearchViewController.swift in Sources */,
+				A7B626A5234F469600FAB098 /* SearchRouter.swift in Sources */,
+				A7B626A6234F469600FAB098 /* SearchModels.swift in Sources */,
 				A77948CA234A29FB008B6200 /* SceneDelegate.swift in Sources */,
+				A7B626A3234F469600FAB098 /* SearchPresenter.swift in Sources */,
+				A7ACF2452362F48700D21985 /* Library.swift in Sources */,
+				A7E31D9A2365F50A00608D4E /* UserDefaults + Extension.swift in Sources */,
+				A7D0B68723574023003579B0 /* TrackDetailView.swift in Sources */,
+				A74F0DA3234D204C00EFA45B /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +499,13 @@
 		};
 		A77948D9234A2A04008B6200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3693F61AEC9C822D49828D /* Pods-IMusic (iTunes).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67DZ326W5V;
 				INFOPLIST_FILE = "IMusic (iTunes)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +519,13 @@
 		};
 		A77948DA234A2A04008B6200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2A87AE6AEAF66A9E606BD8 /* Pods-IMusic (iTunes).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67DZ326W5V;
 				INFOPLIST_FILE = "IMusic (iTunes)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +559,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A70AB245236F6D0D00DC5076 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A70AB246236F6D0D00DC5076 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A70AB245236F6D0D00DC5076 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A77948BC234A29FA008B6200 /* Project object */;
 }
