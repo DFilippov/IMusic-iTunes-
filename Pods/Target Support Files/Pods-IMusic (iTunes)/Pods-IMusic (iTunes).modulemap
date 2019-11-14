@@ -1,0 +1,6 @@
+framework module Pods_IMusic__iTunes_ {
+  umbrella header "Pods-IMusic (iTunes)-umbrella.h"
+
+  export *
+  module * { export * }
+}
