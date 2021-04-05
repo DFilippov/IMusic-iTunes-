@@ -57,7 +57,6 @@ class FooterView: UIView {
     func hideLoader() {
         loader.stopAnimating()
         myLabel.text = ""
-//        loader.isHidden = true
     }
     
 

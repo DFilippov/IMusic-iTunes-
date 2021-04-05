@@ -40,7 +40,6 @@ class TrackCell: UITableViewCell {
     
     var cell: SearchViewModel.Cell?
     
-//    func set(viewModel: TrackCellViewModel) {
     func set(viewModel: SearchViewModel.Cell) {
 
         cell = viewModel
@@ -77,10 +76,6 @@ class TrackCell: UITableViewCell {
         
         listOfTracks.append(cell)
         
-//        if let savedData = try? NSKeyedArchiver.archivedData(withRootObject: listOfTracks, requiringSecureCoding: false) {
-//            print("SUCCESS!!")
-//            defaults.set(savedData, forKey: UserDefaults.favouriteTrackKey)
-//        }
         defaults.saveTracks(listOfTracks: listOfTracks)
         
     }

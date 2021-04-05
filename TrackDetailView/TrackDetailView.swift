@@ -61,7 +61,6 @@ class TrackDetailView: UIView {
     
     func set(viewModel: SearchViewModel.Cell) {
         miniTrackTitleLabel.text = viewModel.trackName
-//        miniPlayPauseButton.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)
         miniPlayPauseButton.imageEdgeInsets = .init(top: 11, left: 11, bottom: 11, right: 11)
         trackTitleLabel.text = viewModel.trackName
         authorTitleLabel.text = viewModel.artistName
@@ -258,7 +257,6 @@ class TrackDetailView: UIView {
     @IBAction func dragDownButtonTapped(_ sender: Any) {
 
         tabBarDelegate?.minimizeTrackDetailView()
-//        self.removeFromSuperview()
         
     }
     

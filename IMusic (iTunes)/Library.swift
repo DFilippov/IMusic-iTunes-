@@ -135,7 +135,6 @@ extension Library: TrackMovingDelegate {
         let index = tracks.firstIndex(of: track)
         guard let myIndex = index else { return nil }
         
-//        return myIndex == -1 ? tracks[tracks.count - 1] : tracks[myIndex - 1]
         var nextTrack: SearchViewModel.Cell
         if myIndex - 1 == -1 {
             nextTrack = tracks[tracks.count - 1]
@@ -149,8 +148,6 @@ extension Library: TrackMovingDelegate {
     func moveForwardForNextTrack() -> SearchViewModel.Cell? {
         let index = tracks.firstIndex(of: track)
         guard let myIndex = index else { return nil }
-
-//        return myIndex + 1 > tracks.count - 1 ? tracks[0] : tracks[myIndex + 1]
         
         var nextTrack: SearchViewModel.Cell
                if myIndex + 1 == tracks.count {
@@ -161,6 +158,5 @@ extension Library: TrackMovingDelegate {
         track = nextTrack
         return nextTrack
     }
-    
-    
+
 }

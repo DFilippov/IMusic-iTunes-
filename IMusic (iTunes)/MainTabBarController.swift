@@ -42,7 +42,6 @@ class MainTabBarController: UITabBarController {
         viewControllers = [
             hostVC,
             generateViewController(rootViewController: searchVC, image: #imageLiteral(resourceName: "search"), title: "Search")
-//            generateViewController(rootViewController: hostVC, image: #imageLiteral(resourceName: "library"), title: "Library")
         ]
     }
     
@@ -75,9 +74,7 @@ class MainTabBarController: UITabBarController {
         
         trackDetailView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         trackDetailView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-//        trackDetailView.bottomAnchor.constraint(equalTo: tabBar.topAnchor).isActive = true
-//
-//        view.addSubview(trackDetailView)
+
     }
 }
 
@@ -101,7 +98,6 @@ extension MainTabBarController: MainTabBarControllerDelegate {
             options: .curveEaseOut,
             animations: {
                 self.view.layoutIfNeeded()
-//                self.tabBar.isHidden = true
                 self.tabBar.alpha = 0
             },
             completion: nil)
@@ -128,7 +124,6 @@ extension MainTabBarController: MainTabBarControllerDelegate {
                        animations: {
                         self.tabBar.transform = .identity
                         self.view.layoutIfNeeded()
-//                        self.tabBar.isHidden = false
                         self.tabBar.alpha = 1
                        },
                        completion: nil)

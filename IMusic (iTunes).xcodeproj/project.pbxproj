@@ -15,7 +15,6 @@
 		A771491C234CDF520025437C /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771491B234CDF520025437C /* SearchResponse.swift */; };
 		A77948C8234A29FB008B6200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77948C7234A29FB008B6200 /* AppDelegate.swift */; };
 		A77948CA234A29FB008B6200 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77948C9234A29FB008B6200 /* SceneDelegate.swift */; };
-		A77948CC234A29FB008B6200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77948CB234A29FB008B6200 /* ViewController.swift */; };
 		A77948CF234A29FB008B6200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77948CD234A29FB008B6200 /* Main.storyboard */; };
 		A77948D1234A2A04008B6200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77948D0234A2A04008B6200 /* Assets.xcassets */; };
 		A77948D4234A2A04008B6200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77948D2234A2A04008B6200 /* LaunchScreen.storyboard */; };
@@ -49,7 +48,6 @@
 		A77948C4234A29FB008B6200 /* IMusic (iTunes).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMusic (iTunes).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77948C7234A29FB008B6200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77948C9234A29FB008B6200 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A77948CB234A29FB008B6200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A77948CE234A29FB008B6200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A77948D0234A2A04008B6200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77948D3234A2A04008B6200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 				A7ACF2442362F48700D21985 /* Library.swift */,
 				A7B6268C234F415400FAB098 /* Search */,
 				A77948DD234A3557008B6200 /* SearchMusicViewController.swift */,
-				A77948CB234A29FB008B6200 /* ViewController.swift */,
 				A7B626AE234F6D4800FAB098 /* Helpers */,
 				A77948CD234A29FB008B6200 /* Main.storyboard */,
 				A77948D0234A2A04008B6200 /* Assets.xcassets */,
@@ -339,7 +336,6 @@
 			files = (
 				A77948DE234A3557008B6200 /* SearchMusicViewController.swift in Sources */,
 				A7B626AD234F6D2600FAB098 /* UIViewController + Storyboard.swift in Sources */,
-				A77948CC234A29FB008B6200 /* ViewController.swift in Sources */,
 				A771491C234CDF520025437C /* SearchResponse.swift in Sources */,
 				A7B626A8234F469600FAB098 /* SearchInteractor.swift in Sources */,
 				A78871B2235523BD0041B5A6 /* FooterView.swift in Sources */,

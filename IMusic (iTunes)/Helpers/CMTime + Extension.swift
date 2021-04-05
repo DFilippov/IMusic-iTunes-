@@ -18,6 +18,5 @@ extension CMTime {
         let seconds = totalSeconds % 60
         let timeFormatString = String(format: "%02d:%02d", minutes, seconds)
         return timeFormatString
-//        let string = "\(minutes):\(seconds)"
     }
 }
